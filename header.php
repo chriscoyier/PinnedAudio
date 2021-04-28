@@ -44,9 +44,7 @@
     
     <nav id="main-nav" class="main-nav mobile-is-closed">
       <ul class="width-limiter">
-        <li class="main-nav-episodes">
-          Nav
-        </li>
+        <?php dynamic_sidebar( 'main_nav' ); ?>
         <li class="main-nav-search">
           <a href="https://www.google.com/search?q=site:shoptalkshow.com%20fun" class="jetpack-search-filter__link">
             <span class="sr-only">Search</span>

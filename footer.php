@@ -1,14 +1,10 @@
-    <footer class="site-footer">
+    <footer class="site-footer width-limiter">
 
-      <div class="apply-typography">
-        <p>
-          Copyright &copy;<?php echo date("Y"); ?> Some Podcast. All rights reserved.
-        </p>
+      <p>
+        Copyright &copy;<?php echo date("Y"); ?> Some Podcast. All rights reserved.
+      </p>
 
-        <a href="/feed/podcast/">RSS</a>
-
-        <a href="/contact/">Contact</a>
-      </div>
+      <?php dynamic_sidebar( 'footer_nav' ); ?>
 
     </footer>
 

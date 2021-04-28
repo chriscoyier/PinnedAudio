@@ -8,7 +8,9 @@ function pa_widgets_init() {
 
   register_sidebar( array(
 		'name'          => 'Footer Nav',
-		'id'            => 'footer_nav'
+		'id'            => 'footer_nav',
+    'before_widget' => '',
+    'after_widget'  => '',
 	) );
 
 }

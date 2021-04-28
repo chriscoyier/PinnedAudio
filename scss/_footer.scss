@@ -1,16 +1,13 @@
 .site-footer {
-  margin: 8rem 0;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
   text-align: center;
   a {
     margin: 0 1rem;
   }
-  p {
-    margin: 0 auto 1rem;
-  }
-  @include breakpoint(baby-bear) {
-    a {
-      display: block;
-      margin: 0.5rem 2rem;
-    }
-  }
+}
+
+#menu-footer-nav {
+  display: flex;
+  justify-content: center;
 }
