@@ -13,9 +13,4 @@
   - TODO: Add JavaScript cache busting
   - TODO: Enqueue CSS instead of linking directly
 
-- TODO: Make live demo
-  - TODO: Put back `bloginfo` bits
-  - TODO: Make separate site in Flywheel / Local
-  - TODO: Use menus for nav & footer
-
 - TODO: `460: What&#8217;s New`
