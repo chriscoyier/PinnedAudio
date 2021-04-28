@@ -1,0 +1,43 @@
+.site-header {
+  background: #2f3136;
+  padding: 3rem;
+}
+
+.main-nav {
+  background: #292b2f;
+  margin: 0 0 1rem 0;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+    align-items: center;
+    a {
+      display: block;
+      background: black;
+      padding: 0.5rem 1rem;
+      white-space: nowrap;
+    }
+    .main-nav-search {
+      margin-left: auto;
+      a {
+        background: none;
+        padding: 0;
+      }
+      svg {
+        height: 32px;
+        width: 32px;
+        display: block;
+        fill: var(--mainColor);
+      }
+    }
+    @media (max-width: 685px) {
+      display: block;
+      position: relative;
+      .main-nav-search {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+html {
+  @include ff-body;
+  font-size: clamp(12px, calc(0.8rem + 0.25vw), 20px);
+  line-height: 1.6;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+a {
+  color: var(--mainColor);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    filter: brightness(2);
+  }
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+time {
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 0.15rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.25;
+  margin: 0 0 0.5rem 0;
+  font-weight: 800;
+  letter-spacing: -0.02rem;
+  a {
+    border: 0;
+  }
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 1.4rem;
+}
+
+details summary {
+  text-transform: uppercase;
+}
+details[open] summary {
+  margin: 0 0 0.5rem 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  &.with-dashes,
+  .apply-typography & {
+    list-style-position: inside;
+    li::marker {
+      content: "•  ";
+    }
+  }
+}
+
+.apply-typography {
+  p,
+  pre,
+  ol,
+  ul,
+  dl {
+    margin: 0 0 1rem 0;
+  }
+
+  p,
+  li,
+  dd {
+    max-width: 650px;
+  }
+  h2,
+  h3,
+  h4 {
+    font-size: 125%;
+    margin: 4rem 0 1rem 0;
+  }
+}

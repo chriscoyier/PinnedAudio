@@ -1,0 +1,16 @@
+.site-footer {
+  margin: 8rem 0;
+  text-align: center;
+  a {
+    margin: 0 1rem;
+  }
+  p {
+    margin: 0 auto 1rem;
+  }
+  @include breakpoint(baby-bear) {
+    a {
+      display: block;
+      margin: 0.5rem 2rem;
+    }
+  }
+}
