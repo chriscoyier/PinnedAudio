@@ -1,4 +1,7 @@
 <?php
+
+wp_enqueue_style('main-styles', get_template_directory_uri() . '/style.css?cache_bust=xxx', array(), "", false);
+
 function pa_widgets_init() {
 
 	register_sidebar( array(
