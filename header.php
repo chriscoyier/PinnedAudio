@@ -31,15 +31,12 @@
 
         <h1>
           <a href="/">
-            Pinned Audio WordPress Theme
-            <?php # bloginfo('title'); ?>
+            <?php bloginfo('title'); ?>
           </a>
         </h1>
         <div class="about-show">
-          Used for sites that want a persistent audio player, simply.
-          <?php # bloginfo('description'); ?>
+          <?php bloginfo('description'); ?>
         </div>
-
 
       </div>
 
