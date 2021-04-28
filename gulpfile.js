@@ -32,7 +32,7 @@ function reload(done) {
 
 function watch() {
   browserSync.init({
-    proxy: "localhost:10008",
+    proxy: "localhost:10042",
   });
   gulp.watch(paths.styles.src, style);
   gulp.watch("src/*.php").on("change", browserSync.reload);
