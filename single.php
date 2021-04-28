@@ -24,7 +24,6 @@
           src: "<?php echo get_post_meta($post->ID, 'audio_file', true); ?>"
         }
       </script>
-      <div id="audio-player-init" data-title="<?php the_title(); ?>" data-src="<?php echo get_post_meta($post->ID, 'audio_file', true); ?>"></div>
 
       <button class="play-episode-button button">
         Play This Episode
