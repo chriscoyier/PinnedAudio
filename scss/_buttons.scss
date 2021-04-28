@@ -2,6 +2,7 @@
 a[rel="prev"],
 a[rel="next"] {
   background: var(--mainColor);
+  display: inline-block;
   color: white;
   font-family: inherit;
   border: 0;
